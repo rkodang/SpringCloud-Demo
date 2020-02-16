@@ -8,4 +8,10 @@ public class UserServiceImpl implements UserService {
     public String getUser() {
         return "我是UserService接口的实现方法";
     }
+
+    @Override
+    public String getUserById(int id) {
+        String a=id+"hihi";
+        return a;
+    }
 }
